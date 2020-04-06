@@ -1,0 +1,388 @@
+
+.boxTopGraphic-1 {
+    display: block;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    min-height: 460px;
+    -webkit-mask-image: url("../img/mask-top-graphic-1.png");
+    mask-image: url("../img/mask-top-graphic-1.png");
+    -webkit-mask-position: right top;
+    mask-position: right top;
+    -webkit-mask-size: 2732px 100%;
+    mask-size: 2732px 100%
+}
+
+.boxTopGraphic-1 .bg {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;    
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+.boxTopGraphic-1 .container {
+    position: relative;
+    z-index: 1
+}
+
+
+
+.boxTopGraphic-1 .seo-page {
+    display: block;
+    padding: 0px 0px 0px;
+    text-align: center;
+    color: #fff
+}
+
+
+
+
+
+
+
+.boxTopGraphic-1:after {
+    display: block;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+    bottom: 0px;
+    width: 500px;
+    height: 180px;
+    background: url(../img/bg-side-menu.png) no-repeat right bottom;
+    background-size: cover;
+    pointer-events: none
+}
+
+.boxTopGraphic-1.landing {
+    height: 460px;
+    -webkit-mask-image: url(../img/mask-top-graphic-1-landing.png);
+    mask-image: url(../img/mask-top-graphic-1-landing.png);
+    -webkit-mask-position: right top;
+    mask-position: right top;
+    -webkit-mask-size: 2732px 460px;
+    mask-size: 2732px 460px;
+}
+
+.boxTopGraphic-1.landing:after {
+    background-image: url(../img/bg-landing.png)
+    z-index: 1;
+}
+
+
+
+.boxTopGraphic-1.notQuickLink .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 100%
+}
+
+.boxTopGraphic-1.notQuickLink .seo-page .des-page-main {
+    padding: 15px 0px
+}
+
+.msie .boxTopGraphic-1 {
+    -webkit-mask-image: none;
+    mask-image: none;
+    -webkit-transform: matrix(1, 0.09584, 0, 1, 0, 0);
+    -ms-transform: matrix(1, 0.09584, 0, 1, 0, 0);
+    transform: matrix(1, 0.09584, 0, 1, 0, 0);
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top
+}
+
+.msie .boxTopGraphic-1 .bg {
+    -webkit-transform: matrix(1, -0.09584, 0, 1, 0, -33);
+    -ms-transform: matrix(1, -0.09584, 0, 1, 0, -33);
+    transform: matrix(1, -0.09584, 0, 1, 0, -33);
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top
+}
+
+.msie .boxTopGraphic-1 .container {
+    -webkit-transform: matrix(1, -0.09584, 0, 1, 0, 0);
+    -ms-transform: matrix(1, -0.09584, 0, 1, 0, 0);
+    transform: matrix(1, -0.09584, 0, 1, 0, 0);
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top
+}
+
+.msie .boxTopGraphic-1 .boxBtnSideMenu {
+    bottom: 27px;
+    -webkit-transform: matrix(1, -0.09584, 0, 1, 0, 0);
+    -ms-transform: matrix(1, -0.09584, 0, 1, 0, 0);
+    transform: matrix(1, -0.09584, 0, 1, 0, 0);
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top
+}
+
+.msie .boxTopGraphic-1 .seo-page .title-page-main {
+    padding: 20px 0px 2px 0px
+}
+
+.msie .boxTopGraphic-1 .seo-page .title-page {
+    padding: 17px 0px 2px 0px
+}
+
+.msie .boxTopGraphic-1:after {
+    -webkit-transform: matrix(1, -0.09584, 0, 1, 0, 0);
+    -ms-transform: matrix(1, -0.09584, 0, 1, 0, 0);
+    transform: matrix(1, -0.09584, 0, 1, 0, 0);
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top
+}
+
+.msie.version-11 .boxTopGraphic-1 .boxBtnSideMenu .txt_1 {
+    padding-top: 10px
+}
+
+.msie.version-11 .boxTopGraphic-1 .boxQuickLink .oneLink {
+    overflow: visible
+}
+
+
+@media all and (max-width: 991px){
+/* @media (max-width:991px) { */
+
+    .boxTopGraphic-1 {
+        min-height: 230px;
+        -webkit-mask-size: 1500px 100%;
+        mask-size: 1500px 100%
+    }
+    .boxTopGraphic-1 .bg {
+        background-position: center top;
+        background-attachment: inherit;
+        background-size: cover
+    }
+    .boxTopGraphic-1:after {
+        width: 250px;
+        height: 100px;
+        background-size: contain;
+        bottom: -10px;
+   
+    }
+    .boxTopGraphic-1 .boxBtnSideMenu {
+        width: 40px;
+        height: 40px;
+        min-height: unset;
+        padding: 0px;
+        right: 10px;
+        bottom: 11px
+    }
+    .boxTopGraphic-1 .boxBtnSideMenu .txt_1 {
+        display: none
+    }
+    .boxTopGraphic-1 .boxBtnSideMenu .btnOpenSideMenu {
+        width: 40px;
+        height: 40px
+    }
+    .boxTopGraphic-1 .boxBtnSideMenu .btnOpenSideMenu:after {
+        margin: -8px -9px 0px 0px
+    }
+    .boxTopGraphic-1 .boxBtnSideMenu .btnOpenSideMenu span {
+        width: 22px;
+        margin: -1px 0px 0px -11px
+    }
+    .boxTopGraphic-1 .boxBtnSideMenu .btnOpenSideMenu span:before {
+        width: 22px
+    }
+    .boxTopGraphic-1 .boxBtnSideMenu .btnOpenSideMenu span:after {
+        width: 12px
+    }
+    .boxTopGraphic-1 .boxBtnSideMenu .btnOpenSideMenu:hover span {
+        width: 12px
+    }
+    .boxTopGraphic-1 .boxBtnSideMenu .btnOpenSideMenu:hover span:before {
+        width: 12px
+    }
+    .boxTopGraphic-1 .boxBtnSideMenu .btnOpenSideMenu:hover span:after {
+        width: 12px
+    }
+    .boxTopGraphic-1 .boxBtnSideMenu .btnOpenSideMenu:hover:after {
+        width: 5px
+    }
+    .boxTopGraphic-1 .boxBtnSideMenu .btnCloseSideMenu {
+        width: 40px;
+        height: 40px;
+        right: 0px;
+        top: 0px
+    }
+    .boxTopGraphic-1 .seo-page {
+        padding: 40px 0px 80px
+    }
+    .boxTopGraphic-1 .seo-page .title-page {
+        font-size: 1.7rem;
+        line-height: 1
+    }
+    .boxTopGraphic-1 .seo-page .sub-title-page {
+        padding: 5px 0px;
+        font-size: 2.2rem;
+        line-height: 0.9
+    }
+    .boxTopGraphic-1 .seo-page .des-page-main br {
+        display: none
+    }
+    .boxTopGraphic-1 .seo-page .des-page-main.hidden-mobile {
+        display: none!important
+    }
+    .boxTopGraphic-1 .seo-page .line-break {
+        display: none
+    }
+    .boxTopGraphic-1 .seo-page .breadcrumb {
+        display: none
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink:before,
+    .boxTopGraphic-1 .seo-page .boxQuickLink.sm-link .oneLink:before {
+        top: 50px;
+        width: calc(50% - 50px)
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink:after,
+    .boxTopGraphic-1 .seo-page .boxQuickLink.sm-link .oneLink:after {
+        left: calc(50% + 50px);
+        top: 50px;
+        width: 50%
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink .boxIcon,
+    .boxTopGraphic-1 .seo-page .boxQuickLink.sm-link .oneLink .boxIcon {
+        width: 100px;
+        height: 100px
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink .boxIcon span i,
+    .boxTopGraphic-1 .seo-page .boxQuickLink.sm-link .oneLink .boxIcon span i {
+        font-size: 46px;
+        width: 46px;
+        height: 46px;
+        margin: -23px 0px 0px -23px
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink .boxText,
+    .boxTopGraphic-1 .seo-page .boxQuickLink.sm-link .oneLink .boxText {
+        width: auto;
+        font-size: 1rem;
+        line-height: 1rem
+    }
+    .boxTopGraphic-1.landing {
+        min-height: 230px;
+        height: auto;
+        -webkit-mask-size: 1500px 100%;
+        mask-size: 1500px 100%
+    }
+}
+
+@media all and (max-width: 767px){
+/* @media (max-width:767px) { */
+    .boxTopGraphic-1 {
+        -webkit-mask-size: 1350px 100%;
+        mask-size: 1350px 100%
+    }
+    .boxTopGraphic-1.landing {
+        -webkit-mask-size: 1350px 100%;
+        mask-size: 1350px 100%
+    }
+    .boxTopGraphic-1 .seo-page .title-page-main {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+
+        
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink,
+    .boxTopGraphic-1 .seo-page .boxQuickLink.sm-link {
+        padding: 20px 0px
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink .boxIcon,
+    .boxTopGraphic-1 .seo-page .boxQuickLink.sm-link .oneLink .boxIcon {
+        width: 60px;
+        height: 60px;
+        padding: 3px
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink .boxIcon span i,
+    .boxTopGraphic-1 .seo-page .boxQuickLink.sm-link .oneLink .boxIcon span i {
+        font-size: 26px;
+        width: 26px;
+        height: 26px;
+        margin: -13px 0px 0px -13px
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink .boxText,
+    .boxTopGraphic-1 .seo-page .boxQuickLink.sm-link .oneLink .boxText {
+        width: auto;
+        padding: 7px 1px
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink:before,
+    .boxTopGraphic-1 .seo-page .boxQuickLink.sm-link .oneLink:before {
+        top: 30px;
+        width: calc(50% - 30px)
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink:after,
+    .boxTopGraphic-1 .seo-page .boxQuickLink.sm-link .oneLink:after {
+        left: calc(50% + 30px);
+        top: 30px;
+        width: 50%
+    }
+}
+
+@media all and (max-width: 575px){
+/* @media (max-width:575px) { */
+    .boxTopGraphic-1 {
+        -webkit-mask-size: 1200px 100%;
+        mask-size: 1200px 100%
+    }
+    .boxTopGraphic-1.landing {
+        -webkit-mask-size: 1200px 100%;
+        mask-size: 1200px 100%
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink {
+        width: 25%
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink:after,
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink:before {
+        display: none!important
+    }
+    .page-about .boxTopGraphic-1 .seo-page .boxQuickLink {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap
+    }
+    .page-about .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink {
+        width: 100%
+    }
+}
+
+
+@media all and (max-width: 359px){
+/* @media (max-width:359px) { */
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink .boxIcon {
+        width: 50px;
+        height: 50px
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink:before {
+        top: 25px;
+        width: calc(50% - 25px)
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink:after {
+        left: calc(50% + 25px);
+        top: 25px;
+        width: 50%
+    }
+    .boxTopGraphic-1 .seo-page .boxQuickLink .oneLink .boxText {
+        font-size: 0.8rem;
+        line-height: 0.8rem
+    }
+}

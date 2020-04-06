@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:300|Mitr:300,wght@0,400;0,600;1,600&display=swap');
+body{
+    /* background: #DCEBFC; */
+    font-family: 'Kanit', sans-serif;
+}
+
+.naviheader{
+    background-color: #ffffff;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+
+}
+
+.title_menu {
+    font-size: 1 rem;
+    color: rgb(1, 1, 150);
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+
+}
+
+
+.myButton {
+	background-color:#7892c2;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:12px 10px;
+    text-decoration:none;
+    font-weight: bold;
+
+}
+.myButton:hover {
+    background-color:#476e9e;
+    color:#ffffff;
+    text-decoration: none; 
+}
+.myButton:active {
+	position:relative;
+    top:1px;
+    
+}
+
+.header-title {
+    font-size: 36px;
+    color: rgb(70, 7, 121);
+    font-weight: bold;
+   
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+
+
+
+.footer
+{
+    color: #ffffff;
+    background-color: rgb(68, 49, 49);
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.footer text-title{
+    font-size: 8 px;
+}
+/*-------------------*/
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+  .my-flex-card > div > div.card {
+    height: calc(100% - 15px);
+    margin-bottom: 15px;
+}
+/*--------------------*/
